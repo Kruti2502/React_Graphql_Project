@@ -1,0 +1,7 @@
+.task-logo, .task-logo:hover {
+    text-decoration: none;
+    color: #08cf65;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: cursive;
+}
