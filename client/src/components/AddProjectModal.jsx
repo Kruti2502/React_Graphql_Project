@@ -48,7 +48,6 @@ export default function AddProjectModal() {
         <>
           <button
             type='button'
-            className='btn btn-primary'
             data-bs-toggle='modal'
             data-bs-target='#addProjectModal'
           >
@@ -132,7 +131,6 @@ export default function AddProjectModal() {
                     <button
                       type='submit'
                       data-bs-dismiss='modal'
-                      className='btn btn-primary'
                     >
                       Submit
                     </button>
