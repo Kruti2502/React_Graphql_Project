@@ -11,40 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.navbar-brand {
-  color: #df3ca6;
-}
-
-.navbar-brand img {
-  width: 30px;
-  margin-right: 10px;
-}
-
-.btn {
-  font-size: 15px;
-}
-
-.btn-primary,
-.bg-primary {
-  background-color: #df3ca6 !important;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: #df3ca6;
-  opacity: 0.9;
-}
-
-.btn-secondary {
-  background-color: #7430f9;
-}
-
-.btn-secondary:hover {
-  background-color: #7430f9;
-  opacity: 0.9;
-}
-
 .icon {
   margin-right: 5px;
+}
+.form-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profilePhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #FF8962;
+}
+button {
+  background-color: #08cf65;
+  border: none;
+  font-size: 15px;
+  padding: 7px 20px;
+  border-radius: 10px;
+}
+button:hover {
+  border: 1px solid black;
+}
+.header {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.task-logo,
+.task-logo:hover {
+  text-decoration: none;
+  color: #08cf65;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: cursive;
+}
+.welcome {
+  position: relative;
+  width: 100vw;
+  height: 90vh;
+}
+.welcome::before {
+  content: "";
+  position: absolute;
+  background-image: url('./assets/welcome.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.welcome-text {
+  position: relative;
+  color: #028f44;
+  opacity: 1;
+  font-size: 50px;
+  font-weight: 900;
 }

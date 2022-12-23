@@ -71,7 +71,7 @@ export default function EditProjectForm({ project }) {
           </select>
         </div>
 
-        <button type="submit" className="btn btn-primary">
+        <button type="submit">
           Submit
         </button>
       </form>
